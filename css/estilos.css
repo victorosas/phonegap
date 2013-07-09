@@ -1,0 +1,49 @@
+/* 
+    Document   : estilos
+    Created on : 27/06/2013, 09:30:21 AM
+    Author     : vdelarosaj
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#principal{  	
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        top: 10px;
+        z-index: 1;        
+}
+#popUp{		
+        height: 0px;
+        width: 0px;	
+        position: absolute;
+        z-index: 2;
+        text-align: 0px;                   
+}
+#pantallaNegra{
+    height: 0px;
+    width: 0px;	
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: #d5d5d5;
+    opacity: 0.5;
+}
+
+#TablaConf{      
+    border: solid;    
+}
+
+.content{    
+    text-align: center;
+    background-color: #aebfd2; 
+}
+
+.prin{    
+    text-align: center;
+}
+
+.tablas{
+	table-layout: fixed;	
+}	
