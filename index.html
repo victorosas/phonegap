@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Seguimiento GPS</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"></link>
+<meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<script type="text/javascript" charset="utf-8" src="phonegap-1.4.1.js"></script>
+<script type="text/javascript" src="js/funciones.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="inicio();">
+<div id="principal">
+  <div id="header" class ="prin">
+		<h1><strong>SISTEMA DE SEGUIMIENTO</strong></h1>
+	</div>
+	<div id="content" class ="prin">			
+            <input type="button" value="CONFIGURAR" onclick="setForm(paginaConf());"></input><br/>
+                    <input type="button" value="INICIO" onclick="setInicio(paginaSeg());"></input><br/>
+                    <input type="button" value="AYUDA" onclick="setForm(ayuda());"></input><br/>
+	</div>
+	<div id="footer" class ="prin">
+		<h4>IW)</h4>
+	</div>
+</div>
+<div id="popUp">
+    
+</div>
+<div id="pantallaNegra">
+	
+</div>
+</body>
+</html>
